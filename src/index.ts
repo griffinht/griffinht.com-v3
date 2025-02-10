@@ -8,7 +8,8 @@ app.get('/', (c) => {
     <!DOCTYPE html>
     <html>
       <head>
-        <title>My App</title>
+        <title>🤓</title>
+        <!-- <favicon>nerd emoji</favicon> -->
       </head>
       <body>
         <h1>My App</h1>
