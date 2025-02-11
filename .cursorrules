@@ -1,8 +1,0 @@
-styles in Page.css, everything else is in Page.tsx
-
-remember we are on a server so you can only build static elements and render them on the server, no state or useeffect
-
-DONT USE STATE OR USEEFFECT OR ANY OF THAT NONSENSE
-
-
-use relative paths only!
