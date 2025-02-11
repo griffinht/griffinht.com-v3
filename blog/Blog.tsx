@@ -1,6 +1,3 @@
-`Page.tsx`
-
-```jsx
 import { Hono } from "hono";
 
 const app = new Hono()
@@ -10,8 +7,3 @@ app.get('/', async (c) => {
 })
 
 export default app
-```
-
-```sh
-bun run src/Page.tsx
-```
