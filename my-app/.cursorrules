@@ -1,0 +1,17 @@
+remember: you should be able to bun run pages/*
+
+bottom of every file:
+
+```tsx
+import Html from './Html'
+
+app.get('/', (c) => {
+  return c.html(Html(<App />, __filename))
+})
+
+// subpages
+import page from './page'
+app.route('/page/', page)
+
+export default app
+```
