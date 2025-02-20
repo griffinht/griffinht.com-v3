@@ -1,0 +1,15 @@
+{
+  "name": "griffinht.com-v3",
+  "module": "App.tsx",
+  "type": "module",
+  "devDependencies": {
+    "@mdx-js/esbuild": "^3.1.0",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "hono": "^4.7.0"
+  }
+}

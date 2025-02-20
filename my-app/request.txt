@@ -1,0 +1,3 @@
+INSTRUCTIONS: no javascript just use <a href=""> and <form> tags
+
+GET http://localhost:3000/submit?

@@ -1,17 +1,15 @@
-`Page.tsx`
+# griffinht.com-v3
 
-```jsx
-import { Hono } from "hono";
+To install dependencies:
 
-const app = new Hono()
-
-app.get('/', async (c) => {
-  return c.html(<div>Hello World</div>)
-})
-
-export default app
+```bash
+bun install
 ```
 
-```sh
-bun run src/Page.tsx
+To run:
+
+```bash
+bun run App.tsx
 ```
+
+This project was created using `bun init` in bun v1.2.2. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
